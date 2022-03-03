@@ -1,16 +1,8 @@
-var map = new GMaps({
-  el: "#map",
-  lat: 40.73061,
-  lng: -73.935242,
-});
-
-map.addMarker({
-  lat: 40.70061,
-  lng: -73.997242,
-  title: "New York",
-  infoWindow: {
-    content: "New York",
-  },
-});
-
-map.setZoom(8);
+// Initialize and add the map
+function myMap() {
+  var mapProp = {
+    center: new google.maps.LatLng(51.508742, -0.12085),
+    zoom: 5,
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}

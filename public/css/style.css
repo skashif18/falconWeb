@@ -40,8 +40,7 @@ body {
 }
 .header-section {
   background: white;
-  height: 10vh;
-
+  height: 13vh;
   width: 100%;
 }
 
@@ -294,7 +293,7 @@ nav ul li a:hover::after {
 }
 .section-3 {
   color: #cecece;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 150px;
 }
 .section-3 h1 {
@@ -483,4 +482,32 @@ nav ul li a:hover::after {
 .fact-icon,
 .fact-content {
   padding: 10px;
+}
+
+/* about section css */
+.about-icon img {
+  height: 130px;
+  display: flex;
+}
+.list {
+  list-style-type: disc;
+}
+.para2 {
+  background-color: rgb(223, 111, 71);
+  border-radius: 40px;
+  padding: 10px;
+  height: 55vh;
+}
+.para3 {
+  background-color: orange;
+  border-radius: 40px;
+  padding: 10px;
+  height: 55vh;
+}
+
+.para4 {
+  background-color: rgb(190, 163, 163);
+  border-radius: 40px;
+  padding: 10px;
+  height: 55vh;
 }
